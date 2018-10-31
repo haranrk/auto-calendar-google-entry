@@ -10,9 +10,6 @@ SCOPES = 'https://www.googleapis.com/auth/calendar'
 #y1330 - yesterday 1:30 PM
 #09241330 - 09/24 1:30 PM
 def parse_datecode(datecode, duration):
-    # valid_date_strings = ['y', 't']
-    # if(datecode[0] in valid_date_strings):
-    
     minutes = int(datecode[-2:])
     hours = int(datecode[-4:-2])
     
